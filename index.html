@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muebles Keyda - Inicio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imgs/logo_transparent.png" alt="Logo Muebles Keyda" height="90">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cotizaciones.html">Cotizaciones</a></li>
+                        <li class="nav-item"><a class="nav-link" href="descarga.html">Descarga</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" style="background-image: url('imgs/Main.png'); min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding-top: 100px;">
+            <div class="hero-overlay" style="background-color: rgba(0,0,0,0.15);"></div>
+            <div class="container hero-content text-center" style="z-index: 2; position: relative;">
+                <p class="text-secundario fw-bold mb-3 tracking-wide font-inter" style="letter-spacing: 2px;">MUEBLES KEYDA</p>
+                <h1 class="hero-title-responsive fw-bold mb-4 font-inter text-white">Diseño que transforma <span class="text-secundario">espacios.</span></h1>
+                <p class="hero-subtitle-responsive mb-5 mx-auto text-white" style="max-width: 800px;">Creamos muebles personalizados que combinan diseño, calidad y funcionalidad para convertir cada espacio en un lugar único.</p>
+                <div class="d-flex justify-content-center gap-4">
+                    <a href="catalogo.html" class="btn btn-lg rounded-pill px-4 fw-bold font-inter text-white" style="background-color: #A65E32; border: none; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">Explorar catálogo</a>
+                    <a href="cotizaciones.html" class="btn btn-lg rounded-pill px-4 fw-bold font-inter text-white" style="background-color: #D5965B; border: none; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">Solicitar cotización</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Descubre nuestra colección -->
+        <section class="bg-beige py-5">
+            <div class="container text-center py-4">
+                <h2 class="text-primario mb-5 fw-bold font-inter" style="font-size: 2.5rem;">Descubre nuestra colección</h2>
+                <div class="row g-5 mt-2">
+                    <!-- Categoría 1 -->
+                    <div class="col-md-4">
+                        <h3 class="text-primario fw-bold mb-4 font-inter" style="font-size: 1.5rem;">Muebles estilo<br>artesanal</h3>
+                        <div id="carouselArtesanal" class="carousel slide shadow-sm rounded overflow-hidden" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselArtesanal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselArtesanal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselArtesanal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imgs/nuevas/carrusel_artesanal_1.jpg" class="d-block w-100 img-cover" style="height: 300px;" alt="Artesanal 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/nuevas/carrusel_artesanal_2.jpg" class="d-block w-100 img-cover" style="height: 300px; " alt="Artesanal 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/nuevas/carrusel_artesanal_3.jpg" class="d-block w-100 img-cover" style="height: 300px; " alt="Artesanal 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselArtesanal" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselArtesanal" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Categoría 2 -->
+                    <div class="col-md-4">
+                        <h3 class="text-primario fw-bold mb-4 font-inter" style="font-size: 1.5rem;">Muebles estilo<br>extravagante</h3>
+                        <div id="carouselExtravagante" class="carousel slide shadow-sm rounded overflow-hidden" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExtravagante" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExtravagante" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExtravagante" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imgs/nuevas/carrusel_extravagante_1.jpg" class="d-block w-100 img-cover" style="height: 300px;" alt="Extravagante 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/nuevas/carrusel_extravagante_2.jpg" class="d-block w-100 img-cover" style="height: 300px; " alt="Extravagante 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/nuevas/carrusel_extravagante_3.jpg" class="d-block w-100 img-cover" style="height: 300px; " alt="Extravagante 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExtravagante" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExtravagante" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Categoría 3 -->
+                    <div class="col-md-4">
+                        <h3 class="text-primario fw-bold mb-4 font-inter" style="font-size: 1.5rem;">Muebles estilo<br>moderno</h3>
+                        <div id="carouselModerno" class="carousel slide shadow-sm rounded overflow-hidden" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselModerno" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselModerno" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselModerno" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imgs/nuevas/carrusel_moderno_1.jpg" class="d-block w-100 img-cover" style="height: 300px;" alt="Moderno 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/nuevas/carrusel_moderno_2.jpg" class="d-block w-100 img-cover" style="height: 300px; " alt="Moderno 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/nuevas/carrusel_moderno_3.jpg" class="d-block w-100 img-cover" style="height: 300px; " alt="Moderno 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselModerno" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselModerno" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ¿Quiénes somos? -->
+        <section class="bg-crema p-0">
+            <div class="row g-0 align-items-stretch">
+                <!-- Imagen ocupando la mitad exacta sin padding -->
+                <div class="col-md-6">
+                    <img src="imgs/sillonquienessomos.png" alt="Sillón de muestra" class="w-100 h-100 img-cover" style="min-height: 500px; object-position: left center;">
+                </div>
+                <!-- Texto a la derecha -->
+                <div class="col-md-6 d-flex flex-column justify-content-center p-5">
+                    <div style="max-width: 600px; padding: 2rem;">
+                        <p class="text-primario fw-bold mb-2 fs-5" style="letter-spacing: 1px;">CONOCE MÁS SOBRE NOSOTROS</p>
+                        <h2 class="text-primario fw-bold mb-4 font-poppins" style="font-size: 4.5rem; line-height: 0.9;">¿Quiénes<br>somos?</h2>
+                        <p class="text-texto fs-5 mb-4">En <strong class="text-primario">Muebles Keyda</strong> creemos que un mueble es mucho más que un objeto funcional; es la pieza que transforma una casa en un verdadero hogar y una oficina en un espacio de inspiración.</p>
+                        <p class="text-texto fs-5 mb-5">Nos especializamos en el diseño, fabricación y comercialización de muebles personalizados, ofreciendo soluciones que combinan calidad, innovación y acabados profesionales.</p>
+                        <div>
+                            <a href="nosotros.html" class="btn btn-primary-custom btn-lg font-outfit fw-bold px-5 py-3" style="border-radius: 30px; background-color: var(--color-secundario);">Conocer Más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA final -->
+        <section class="py-5 text-center" style="background-color: var(--color-secundario); color: var(--color-beige); padding: 80px 0 !important;">
+            <div class="container">
+                <h2 class="fw-bold mb-4 font-inter" style="font-size: 3rem;">¿Listo para transformar tu hogar?</h2>
+                <p class="lead mb-5 mx-auto font-inter fs-4" style="max-width: 900px;">Creamos muebles personalizados que se adaptan a tu estilo, necesidades y espacios.</p>
+                <a href="cotizaciones.html" class="btn fw-bold px-5 py-3 font-inter rounded-pill" style="background-color: #c99368; color: #fff; font-size: 1.2rem;">Solicitar Cotización</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4 mt-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <img src="imgs/logo.png" alt="Logo Muebles Keyda" height="60" class="mb-3 bg-white rounded p-1">
+                    <p class="small">Diseño que transforma espacios.</p>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold">Enlaces rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="catalogo.html">Catálogo</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Contacto</h5>
+                    <ul class="list-unstyled small">
+                        <li>Email: muebleskeydasv@gmail.com</li>
+                        <li>Tel: +503 7737-4461</li>
+                        <li>Dirección: Colonia Buena Vista, Clle los Cocos #3, San Salvador, San Salvador.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-3 pt-3 border-top border-secondary">
+                <small>&copy; 2026 Muebles Keyda. Todos los derechos reservados.</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
